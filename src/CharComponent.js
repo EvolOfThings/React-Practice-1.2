@@ -11,12 +11,10 @@ const CharComponent = (props) => {
 
 
   return (
-    <div>
-      <ul style={listStyle}>
-       {props.arry}
-      </ul>
+    <div style={listStyle} onClick={props.clicked}>
+      {props.character}
     </div>
   );
-}
+};
 
 export default CharComponent;
