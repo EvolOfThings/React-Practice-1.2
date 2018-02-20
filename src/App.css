@@ -6,3 +6,7 @@ body {
   font-family: 'Sans';
   text-align: 'center';
 }
+
+ol {
+  border: 1px solid;
+}

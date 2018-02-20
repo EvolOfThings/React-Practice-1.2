@@ -8,8 +8,13 @@ const CharComponent = (props) => {
     margin: '16px', 
     border: '1px solid black'
   };
+
+
   return (
-    <div style={listStyle}>
+    <div>
+      <ul style={listStyle}>
+       {props.arry}
+      </ul>
     </div>
   );
 }
