@@ -3,7 +3,7 @@ import React from 'react';
 const ValidationComponent = (props) => {
 
   const style = {
-    color: 'red',
+    color: 'red'
   };
 
   let validationMessage = '';
